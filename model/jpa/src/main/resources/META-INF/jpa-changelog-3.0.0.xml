@@ -25,6 +25,8 @@
              </column>
          </addColumn>
 
+         <modifyDataType tableName="USER_ATTRIBUTE" columnName="VALUE" newDataType="NVARCHAR(20000)"/>
+
      </changeSet>
 
 </databaseChangeLog>

@@ -54,7 +54,7 @@ public class UserAttributeEntity {
 
     @Column(name = "NAME")
     protected String name;
-    @Column(name = "VALUE", length=20000)
+    @Column(name = "VALUE")
     protected String value;
 
     public String getId() {
